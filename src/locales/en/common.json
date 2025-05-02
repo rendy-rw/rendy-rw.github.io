@@ -1,0 +1,166 @@
+{
+  "title": "Personal Portfolio - Rendy Ramadhana Wahyudi",
+  "description": "Graduate student and Geophysicist from Bandung, Indonesia, with a strong focus on embedded systems, data analysis, and geophysical engineering.",
+  "navbar": [
+    {
+      "label": "Home",
+      "href": "#top"
+    },
+    {
+      "label": "Experience",
+      "href": "/en/#work-experience"
+    },
+    {
+      "label": "Projects",
+      "href": "/en/#projects"
+    },
+    {
+      "label": "Blog",
+      "href": "/en/#blog"
+    },
+    {
+      "label": "About me",
+      "href": "/en/#about-me"
+    }
+  ],
+  "hero": {
+    "job_availability": "Available for collabs!",
+    "title": "Hello I'm\nRendy Ramadhana!",
+    "job_title": "<strong>Emerging Geophysicist & Graduate Student | Bandung-based.",
+    "description": "passionate about innovation in Embedded Systems, Seismic Exploration, and Data Science",
+    "cta": "Contact me"
+  },
+  "experience": {
+    "title": "Work Experience",
+    "jobs": {
+      "jobs_title": [" PT. Surya Brinka Persada", "Geophysic, UNPAD", "Research Team, UNPAD", "Komunitas Sedekah Air"],
+      "jobs_description": [
+        {
+          "title": "Geophysical Engineer, Freelance",
+          "time": ["Sep 2024"],
+          "description": "Led 16+ geophysical surveys across West Java, using the 2D Resistivity method with multiple instruments. Supervised a 3-person field team, prepared Budget Plans (RAB), and handled GPS plotting with sub-meter accuracy. Automated data retrieval and conversion processes using Python to improve efficiency.",
+          "list": ["Python", "2D Resistivity method", "GIS"]
+        },
+        {
+          "title": "Teaching Assistant for Numerical Methods",
+          "time": ["Feb 2024", "Jul 2024"],
+          "description": "Led computational practice sessions in Python under a hybrid learning system, combining in-person teaching and online collaboration with doctoral students from Germany. Organized weekly and monthly assessments to track and evaluate student progress. Maintained high teaching standards, resulting in a 90%+ student satisfaction rate according to course evaluations.",
+          "list": ["Design of websites", "Optimization of websites"]
+        },
+        {
+          "title": "Instrumentation Research Assistant",
+          "time": ["Jul 2023", "Aug 2023"],
+          "description": "Designed and implemented directional antennas for IoT applications on geophone sensors, improving the efficiency of seismic vibration detection systems. Conducted extensive antenna simulations, successfully optimizing signal directionality and doubling the transmission range compared to standard designs. Managed research administration by preparing daily reports, budget plans (RAB), project timelines, proposals, logbooks, and final accomplishment reports.",
+          "list":["Pyton", "LaTex", "Teaching"]
+        },
+        {
+          "title": "Geoscience Surveyor",
+          "time": ["Dec 2022"],
+          "description": "Conducted geological and geophysical surveys using the resistivity method for groundwater exploration at over 20 locations across Java Island. Prepared proposals, performed geological analyses, acquired field data, and produced technical reports to support drilling plans and water resource development. Successfully identified viable groundwater sources at 10 sites, providing water flow rates sufficient to serve 50 to 100 households per location, supporting public facilities such as schools, places of worship, and community centers.",
+          "list":["Magnetic Method, Design Survey, Data Implementation"]
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "projects": [
+      {
+        "title": "Design and Development of IoT-Based Distributed Vibration Recording Instrument",
+        "description": "Developed a wireless measurement system using ESP32 to replace conventional cable-connected instruments, enhancing practicality in field operations. Implemented deep sleep modes for power optimization and conducted experiments to evaluate data transmission range and quality.",
+        "image": "/src/images/projects/esp.png",
+        "techs": ["C++", "KiCad", "Blender"],
+        "code": "Code",
+        "preview": "Preview"
+      },
+      {
+        "title": "Low-Power Wireless Connectivity Optimization",
+        "description": "Designing and developing an instrument system that communicates wirelessly using Wi-Fi and LoRa technologies, powered by ESP microcontrollers.",
+        "image": "/src/images/projects/wifilora.png",
+        "techs": ["C++", "MMANA-GAL", "Google Earth", "QGIS"],
+        "code": "Code",
+        "preview": "Preview"
+      },
+      {
+        "title": "Spatial Data Analysis Using DEM: A Case Study of Central Lombok, Indonesia",
+        "description": "This study utilizes high-performance computing at Universitas Padjadjaran (UNPAD) with Python to analyze spectral signatures of spatial scales from DEM data. A case study of Central Lombok, Indonesia, provides insights into geomorphological patterns.",
+        "image": "/src/images/projects/spectral.png",
+        "techs": [
+          "Python",
+          "Jupyter"
+        ],
+        "code": "Code",
+        "preview": "Preview"
+      },
+      {
+        "title": "PySpark-Based Machine Learning on Hydrothermal Flow Data",
+        "description": "This study applies PySpark-based machine learning to analyze large-scale microseismic data, focusing on fluid flow behavior in geothermal systems. Using a scalable framework, the project aims to uncover patterns in subsurface dynamics efficiently. The dataset, sourced from Geoffroy et al. (2022), includes microearthquake hypocenters from the Krýsuvík geothermal area in SW-Iceland, available via the Dryad Repository.",
+        "image": "/src/images/projects/pyspark.png",
+        "techs": [
+          "Apache Spark",
+          "Python"
+        ],
+        "code": "Code",
+        "preview": "Preview"
+      },
+      {
+        "title": "Support Vector Machine-Based Model for Rainfall Forecasting",
+        "description": "A Support Vector Machine-based model was developed for rainfall forecasting using a Kaggle dataset containing approximately 10 years of daily weather observations from various locations across Australia. The model achieved a strong accuracy score and demonstrated a high capability in recognizing rainfall events.",
+        "image": "/src/images/projects/svm.png",
+        "techs": [
+          "Python"
+        ],
+        "code": "Code",
+        "preview": "Preview"
+      }
+    ]
+  },
+  "blog": {
+    "title": "Blog",
+    "blog": [
+      {
+        "title": "Implementation of the ADS1232 24-bit External ADC in Geophone Sensor Applications",
+        "description": "The communication between peripherals on the Wemos board and the ADS1232 IC is based on the I2C protocol. This communication involves multiple signals operating in sync. In this context, the peripherals require a clock signal as a time reference, which is essential for the calibration process and for transmitting the 24-bit conversion data from the ADS1232 IC.",
+        "date": "Oktober 2, 2024",
+        "src": "/src/images/blogs/adc.png",
+        "link": "https://blogs.unpad.ac.id/rendyrw/2024/10/02/progress-instrumentasi-2-oktober-2024/",
+        "tag": "ADC; I2C; ADS1232; Geophone"
+      },
+      {
+        "title": "Assessment of LoRa Applications in Microcontroller Systems",
+        "description": "Testing was conducted to determine the maximum transmission and reception range of LoRa signals by sending simple string data. The experiments utilized two types of antennas: omnidirectional and Yagi.",
+        "date": "September 19, 2024",
+        "src": "/src/images/blogs/lora.png",
+        "link": "https://blogs.unpad.ac.id/rendyrw/2024/09/20/uji-konektivitas-lora/",
+        "tag": "LoRa; Wireless; ESP32; IoT"
+      },
+      {
+        "title": "Optimizing Data Storage Through the Use of Online Databases",
+        "description": "The communication between the Wemos board and the ADS1232 IC is established using the I2C protocol, which relies on a synchronized clock signal. This clock signal plays a critical role in ensuring precise calibration and the reliable transmission of 24-bit conversion data from the IC.",
+        "date": "August 1, 2022",
+        "src": "/src/images/blogs/mysql.png",
+        "link": "#",
+        "tag": "database; MySQL; Geophysics Dataset"
+      }
+    ]
+  },
+  "about": {
+    "title": "About me",
+    "subtitle": "What I do",
+    "description": "I am a Geophysicist and Embedded System Engineer with a passion for innovation in the field of geophysics. I have experience in designing and developing IoT-based systems, data analysis, and geophysical surveys. My expertise includes programming languages such as Python and C++, as well as tools like KiCad and Blender for hardware design. I am committed to advancing technology in geophysics and contributing to impactful projects."
+  },
+  "contact": {
+    "title": "Ready to make your dreams come true?",
+    "subtitle": "I can boost your project or be part of your team"
+  },
+  "footer": {
+    "designed": {
+      "designed_with": "Designed with",
+      "designed_by": "by"
+    },
+    "developed": {
+      "developed_with": "Made with",
+      "developed_by": "by"
+    }
+  }
+}
