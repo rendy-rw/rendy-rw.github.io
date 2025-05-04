@@ -1,6 +1,6 @@
 
 ---
-title: Judul Post
+title: third
 description: Ringkasan post
 pubDate: 2025-05-04
 thumbnail: /src/images/blogs/adc.png
