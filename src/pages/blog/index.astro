@@ -1,0 +1,117 @@
+---
+import Layout from '@layouts/Layout.astro' // ini mengacu pada layout yang kamu tulis di atas
+import CardBlog from '@components/CardBlog.astro'
+import { t } from 'i18n:astro'
+
+const { title, blog } = t('blog', {
+  returnObjects: true
+})
+---
+
+<Layout
+  options={{
+    title: `Blog – Rendy Ramadhana`,
+    description: 'Artikel, tutorial, dan catatan dari Rendy Ramadhana',
+    metaRobots: 'index, follow',
+    hideNavbar: true, // Sembunyikan Navbar di halaman ini
+    hideFooter: true  // Sembunyikan Footer di halaman ini
+  }}
+>
+  <section class="blog-page">
+    <h1 class="blog-title">Welcome to my Blog !</h1>
+
+    <div class="card-blog">
+      {
+        blog.map(({ src, title, description, date, link, tag }) => (
+          <CardBlog
+            src={src}
+            alt={title}
+            title={title}
+            description={description}
+            link={link}
+            date={date}
+            tag={tag}
+          />
+        ))
+      }
+    </div>
+  </section>
+</Layout>
+
+<footer>
+  <p>Developed by <a href="https://www.linkedin.com/in/rendywahyudi/" target="_blank" rel="noopener noreferrer">Rendy Ramadhana</a></p>
+</footer>
+
+<style>
+  .blog-page {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 80px 20px;
+  }
+
+  .blog-page h1 {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    margin-bottom: 24px;
+  }
+
+  .blog-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 48px;
+    margin-bottom: 48px;
+    position: relative;
+  }
+
+  .card-blog {
+    display: grid;
+    gap: 36px;
+  }
+
+  @media (min-width: 768px) {
+    .card-blog {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blog-page h1{
+      justify-content: flex-start;
+    }
+
+    .blog-page h1::before,
+    .blog-title::after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 1px;
+      background-color: var(--border-color);
+  }
+  }
+
+  @media (min-width: 1200px) {
+    .card-blog {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  footer {
+    padding-block: 48px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--text-color);
+  }
+
+  footer a {
+    margin-left: 4px;
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  footer a:hover {
+    color: var(--text-description-color);
+  }
+</style>

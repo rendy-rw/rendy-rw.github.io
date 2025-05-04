@@ -3,6 +3,7 @@ import type { ImageMetadata } from 'astro'
 import { Icon } from 'astro-icon/components'
 import { Picture } from 'astro:assets'
 import '@styles/tech-colors.css'
+import Projects from '@pages/_home/Projects.astro'
 
 interface Props {
   src: string
@@ -35,7 +36,7 @@ if (!images[src])
 
 <section class="card-project">
   <div>
-    <a href="#">
+    <a href={preview} target="_blank" rel="noopener noreferrer">
       <Picture
         src={images[src]()}
         alt={alt}
@@ -47,7 +48,7 @@ if (!images[src])
     </a>
   </div>
   <div class="description">
-    <h3><a href="#">{title}</a></h3>
+    <h3><a href={preview} target="_blank" rel="noopener noreferrer">{title}</a></h3>
     <div class="badges">
       {
         techs.map((tech) => {
@@ -64,13 +65,13 @@ if (!images[src])
     </div>
     <p>{description}</p>
     <div class="links">
-      <a href="#">
+      <a href={code} target="_blank" rel="noopener noreferrer">
         <Icon name="github" size={24} />
-        {code}
+        Code
       </a>
-      <a href="#">
+      <a href={preview} target="_blank" rel="noopener noreferrer">
         <Icon name="link" size={24} />
-        {preview}
+        Preview
       </a>
     </div>
   </div>

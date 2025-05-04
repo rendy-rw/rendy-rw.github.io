@@ -55,15 +55,15 @@
         "description": "Mengembangkan sistem pengukuran nirkabel menggunakan ESP32 untuk menggantikan alat konvensional berbasis kabel, meningkatkan kepraktisan di lapangan. Mengimplementasikan mode deep sleep untuk optimasi daya dan melakukan eksperimen terhadap kualitas serta jangkauan transmisi data.",
         "image": "/src/images/projects/esp.png",
         "techs": ["C++", "KiCad", "Blender"],
-        "code": "Kode",
-        "preview": "Pratinjau"
+        "code": "https://github.com/rendy-rw/esp_now_geophone.git",
+        "preview": "https://www.atlantis-press.com/proceedings/msceis-23/126003213"
       },
       {
         "title": "Optimasi Konektivitas Nirkabel Berdaya Rendah",
         "description": "Merancang dan mengembangkan sistem instrumen yang berkomunikasi secara nirkabel menggunakan teknologi Wi-Fi dan LoRa, dengan dukungan mikrokontroler ESP.",
         "image": "/src/images/projects/wifilora.png",
         "techs": ["C++", "MMANA-GAL", "Google Earth", "QGIS"],
-        "code": "Kode",
+        "code": "https://github.com/rendy-rw/LoRa_geophone_1channel.git",
         "preview": "Pratinjau"
       },
       {

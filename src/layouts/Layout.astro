@@ -16,6 +16,8 @@ interface Options {
   title: string
   description: string
   metaRobots?: string
+  hideNavbar?: boolean; // Tambahkan opsi ini
+  hideFooter?: boolean; // Tambahkan opsi ini
 }
 
 interface Props {
@@ -23,7 +25,7 @@ interface Props {
 }
 
 const { options } = Astro.props
-const { title, description, metaRobots } = options
+const { title, description, metaRobots, hideFooter, hideNavbar } = options
 ---
 
 <!doctype html>
@@ -161,11 +163,13 @@ const { title, description, metaRobots } = options
     <slot name="social-media" />
   </head>
   <body>
-    <Navbar />
+    { !hideNavbar && <Navbar /> }
+    <!-- Navbar hanya muncul jika tidak disembunyikan -->
 
     <slot />
 
-    <Footer />
+    { !hideFooter && <Footer /> }
+    <!-- Footer hanya muncul jika tidak disembunyikan -->
 
     <Social />
     <slot name="dynamic-components" />

@@ -70,16 +70,16 @@
         "description": "Developed a wireless measurement system using ESP32 to replace conventional cable-connected instruments, enhancing practicality in field operations. Implemented deep sleep modes for power optimization and conducted experiments to evaluate data transmission range and quality.",
         "image": "/src/images/projects/esp.png",
         "techs": ["C++", "KiCad", "Blender"],
-        "code": "Code",
-        "preview": "Preview"
+        "code": "https://github.com/rendy-rw/esp_now_geophone.git",
+        "preview": "https://www.atlantis-press.com/proceedings/msceis-23/126003213"
       },
       {
         "title": "Low-Power Wireless Connectivity Optimization",
         "description": "Designing and developing an instrument system that communicates wirelessly using Wi-Fi and LoRa technologies, powered by ESP microcontrollers.",
         "image": "/src/images/projects/wifilora.png",
         "techs": ["C++", "MMANA-GAL", "Google Earth", "QGIS"],
-        "code": "Code",
-        "preview": "Preview"
+        "code": "https://github.com/rendy-rw/LoRa_geophone_1channel.git",
+        "preview": "/docs/proyek_iot.pdf"
       },
       {
         "title": "Spatial Data Analysis Using DEM: A Case Study of Central Lombok, Indonesia",
@@ -89,7 +89,7 @@
           "Python",
           "Jupyter"
         ],
-        "code": "Code",
+        "code": "https://github.com/rendy-rw/power_spectrum.git",
         "preview": "Preview"
       },
       {
