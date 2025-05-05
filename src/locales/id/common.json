@@ -1,0 +1,143 @@
+{
+  "title": "Portofolio Pribadi - Rendy Ramadhana Wahyudi",
+  "description": "Mahasiswa pascasarjana dan Geofisikawan dari Bandung, Indonesia, dengan fokus mendalam pada sistem tertanam (embedded systems), analisis data, dan rekayasa geofisika.",
+  "navbar": [
+    { "label": "Beranda", "href": "#top" },
+    { "label": "Pengalaman", "href": "#pengalaman-kerja" },
+    { "label": "Proyek", "href": "#proyek" },
+    { "label": "Blog", "href": "#blog" },
+    { "label": "Tentang Saya", "href": "#tentang-saya" }
+  ],
+  "hero": {
+    "job_availability": "Terbuka untuk kolaborasi!",
+    "title": "Halo, saya\nRendy Ramadhana!",
+    "job_title": "<strong>Geofisikawan Muda & Mahasiswa Pascasarjana | Berbasis di Bandung.",
+    "description": "bersemangat dalam inovasi Embedded Systems, Eksplorasi Seismik, dan Data Science",
+    "cta": "Hubungi Saya"
+  },
+  "experience": {
+    "title": "Pengalaman Kerja",
+    "jobs": {
+      "jobs_title": ["PT. Surya Brinka Persada", "Geofisika, UNPAD", "Tim Riset, UNPAD", "Komunitas Sedekah Air"],
+      "jobs_description": [
+        {
+          "title": "Geophysical Engineer (Freelance)",
+          "time": ["Sep 2024"],
+          "description": "Memimpin lebih dari 16 survei geofisika di Jawa Barat menggunakan metode Resistivitas 2D dengan berbagai instrumen. Mengelola tim lapangan berjumlah 3 orang, menyusun RAB, serta melakukan plotting GPS dengan akurasi sub-meter. Mengotomatiskan proses pengambilan dan konversi data menggunakan Python untuk meningkatkan efisiensi.",
+          "list": ["Python", "Metode Resistivitas 2D", "GIS"]
+        },
+        {
+          "title": "Asisten Dosen Metode Numerik",
+          "time": ["Feb 2024", "Jul 2024"],
+          "description": "Memimpin sesi praktik komputasi menggunakan Python dalam sistem pembelajaran hybrid, menggabungkan tatap muka dan kolaborasi daring dengan mahasiswa doktoral dari Jerman. Menyelenggarakan evaluasi mingguan dan bulanan untuk memantau kemajuan mahasiswa. Menjaga standar pengajaran yang tinggi, menghasilkan tingkat kepuasan mahasiswa >90%.",
+          "list": ["Desain Situs Web", "Optimasi Situs Web"]
+        },
+        {
+          "title": "Asisten Riset Instrumentasi",
+          "time": ["Jul 2023", "Agu 2023"],
+          "description": "Merancang dan mengimplementasikan antena arah untuk aplikasi IoT pada sensor geofon, meningkatkan efisiensi sistem deteksi getaran seismik. Melakukan simulasi antena secara ekstensif dan berhasil menggandakan jangkauan transmisi dibanding desain standar. Mengelola administrasi riset termasuk laporan harian, RAB, timeline proyek, proposal, logbook, dan laporan akhir.",
+          "list": ["Python", "LaTeX", "Pengajaran"]
+        },
+        {
+          "title": "Surveyor Geosains",
+          "time": ["Des 2022"],
+          "description": "Melakukan survei geologi dan geofisika menggunakan metode resistivitas untuk eksplorasi air tanah di lebih dari 20 lokasi di Pulau Jawa. Menyusun proposal, menganalisis data geologi dan geofisika, serta menyusun laporan teknis guna mendukung perencanaan pengeboran. Berhasil mengidentifikasi sumber air layak di 10 lokasi yang mampu melayani 50–100 rumah tangga per titik, termasuk fasilitas umum seperti sekolah, masjid, dan balai warga.",
+          "list": ["Metode Magnetik", "Desain Survei", "Implementasi Data"]
+        }
+      ]
+    }
+  },
+  "projects": {
+    "title": "Proyek",
+    "projects": [
+      {
+        "title": "Desain dan Pengembangan Alat Perekam Getaran Terdistribusi Berbasis IoT",
+        "description": "Mengembangkan sistem pengukuran nirkabel menggunakan ESP32 untuk menggantikan alat konvensional berbasis kabel, meningkatkan kepraktisan di lapangan. Mengimplementasikan mode deep sleep untuk optimasi daya dan melakukan eksperimen terhadap kualitas serta jangkauan transmisi data.",
+        "image": "/src/images/projects/esp.png",
+        "techs": ["C++", "KiCad", "Blender"],
+        "code": "https://github.com/rendy-rw/esp_now_geophone.git",
+        "preview": "https://www.atlantis-press.com/proceedings/msceis-23/126003213"
+      },
+      {
+        "title": "Optimasi Konektivitas Nirkabel Berdaya Rendah",
+        "description": "Merancang dan mengembangkan sistem instrumen yang berkomunikasi secara nirkabel menggunakan teknologi Wi-Fi dan LoRa, dengan dukungan mikrokontroler ESP.",
+        "image": "/src/images/projects/wifilora.png",
+        "techs": ["C++", "MMANA-GAL", "Google Earth", "QGIS"],
+        "code": "https://github.com/rendy-rw/LoRa_geophone_1channel.git",
+        "preview": "Pratinjau"
+      },
+      {
+        "title": "Analisis Data Spasial Menggunakan DEM: Studi Kasus Lombok Tengah",
+        "description": "Penelitian ini menggunakan komputasi performa tinggi di Universitas Padjadjaran untuk menganalisis pola spektral skala spasial dari data DEM. Studi kasus Lombok Tengah memberikan wawasan tentang pola geomorfologi.",
+        "image": "/src/images/projects/spectral.png",
+        "techs": ["Python", "Jupyter"],
+        "code": "Kode",
+        "preview": "Pratinjau"
+      },
+      {
+        "title": "Pembelajaran Mesin Berbasis PySpark untuk Data Aliran Hidrotermal",
+        "description": "Penelitian ini menerapkan pembelajaran mesin berbasis PySpark untuk menganalisis data mikroseismik berskala besar, dengan fokus pada perilaku aliran fluida dalam sistem panas bumi. Dataset berasal dari Geoffroy et al. (2022), yang mencakup hiposenter mikrogempa di area panas bumi Krýsuvík, Islandia.",
+        "image": "/src/images/projects/pyspark.png",
+        "techs": ["Apache Spark", "Python"],
+        "code": "Kode",
+        "preview": "Pratinjau"
+      },
+      {
+        "title": "Model Prakiraan Curah Hujan Menggunakan Support Vector Machine",
+        "description": "Mengembangkan model prakiraan curah hujan berbasis SVM menggunakan dataset Kaggle dengan data cuaca harian selama 10 tahun dari berbagai lokasi di Australia. Model menunjukkan akurasi tinggi dalam mendeteksi kejadian hujan.",
+        "image": "/src/images/projects/svm.png",
+        "techs": ["Python"],
+        "code": "Kode",
+        "preview": "Pratinjau"
+      }
+    ]
+  },
+  "blog": {
+    "title": "Blog",
+    "blog": [
+      {
+        "title": "Implementasi ADC Eksternal 24-bit ADS1232 untuk Sensor Geofon",
+        "description": "Komunikasi antara board Wemos dan IC ADS1232 menggunakan protokol I2C yang melibatkan sinyal sinkronisasi. Sinyal clock sangat penting dalam proses kalibrasi dan transmisi data konversi 24-bit dari IC ADS1232.",
+        "date": "2 Oktober 2024",
+        "src": "/src/images/blogs/adc.png",
+        "link": "https://blogs.unpad.ac.id/rendyrw/2024/10/02/progress-instrumentasi-2-oktober-2024/",
+        "tag": "ADC; I2C; ADS1232; Geofon"
+      },
+      {
+        "title": "Evaluasi Aplikasi LoRa pada Sistem Mikrokontroler",
+        "description": "Pengujian dilakukan untuk mengetahui jangkauan maksimal transmisi dan penerimaan sinyal LoRa dengan mengirim data berupa string sederhana. Digunakan dua jenis antena: omnidirectional dan Yagi.",
+        "date": "19 September 2024",
+        "src": "/src/images/blogs/lora.png",
+        "link": "https://blogs.unpad.ac.id/rendyrw/2024/09/20/uji-konektivitas-lora/",
+        "tag": "LoRa; Nirkabel; ESP32; IoT"
+      },
+      {
+        "title": "Optimalisasi Penyimpanan Data Menggunakan Database Online",
+        "description": "Komunikasi antara board Wemos dan IC ADS1232 menggunakan protokol I2C yang bergantung pada sinyal clock tersinkronisasi, penting untuk memastikan kalibrasi akurat dan transmisi data konversi 24-bit yang andal.",
+        "date": "1 Agustus 2022",
+        "src": "/src/images/blogs/mysql.png",
+        "link": "#",
+        "tag": "Database; MySQL; Dataset Geofisika"
+      }
+    ]
+  },
+  "about": {
+    "title": "Tentang Saya",
+    "subtitle": "Apa yang Saya Lakukan",
+    "description": "Saya adalah Geofisikawan dan Engineer Embedded System yang memiliki antusiasme tinggi terhadap inovasi di bidang geofisika. Berpengalaman dalam merancang sistem berbasis IoT, analisis data, dan pelaksanaan survei geofisika. Keahlian saya mencakup bahasa pemrograman seperti Python dan C++, serta perangkat lunak seperti KiCad dan Blender untuk desain perangkat keras. Saya berkomitmen untuk terus memajukan teknologi di bidang geofisika melalui kontribusi pada proyek-proyek berdampak."
+  },
+  "contact": {
+    "title": "Siap Wujudkan Proyek Impian Anda?",
+    "subtitle": "Saya dapat mendukung proyek Anda atau menjadi bagian dari tim Anda"
+  },
+  "footer": {
+    "designed": {
+      "designed_with": "Dirancang dengan",
+      "designed_by": "oleh"
+    },
+    "developed": {
+      "developed_with": "Dikembangkan dengan",
+      "developed_by": "oleh"
+    }
+  }
+}

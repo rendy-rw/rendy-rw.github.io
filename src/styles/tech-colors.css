@@ -1,0 +1,124 @@
+/* Warna badge untuk mode terang (light mode) */
+
+.mmana-gal ,
+.apache-spark,
+.astro,
+.jupyter,
+.blender {
+  background-color: #ff5100f6;
+  transition: var(--transition-bg);
+}
+
+.google-earth,
+.c\+\+,
+.css {
+  background-color: #324b7f;
+  transition: var(--transition-bg);
+}
+
+.tailwindcss,
+.typescript,
+.react {
+  background-color: #32547f;
+  transition: var(--transition-bg);
+}
+
+.sass {
+  background-color: #602957;
+  transition: var(--transition-bg);
+}
+
+.open-props,
+.kicad {
+  background-color: #3a4367;
+  transition: var(--transition-bg);
+}
+
+.javascript {
+  background-color: #665e24;
+  transition: var(--transition-bg);
+}
+
+.php {
+  background-color: #616161;
+  transition: var(--transition-bg);
+}
+
+.wordpress {
+  background-color: #3a4367;
+  transition: var(--transition-bg);
+}
+
+.firebase {
+  background-color: #7f6932;
+  transition: var(--transition-bg);
+}
+
+.pwa {
+  background-color: #c4c4c4;
+  color: #000;
+  transition: var(--transition-bg), var(--transition-text);
+}
+
+.qgis,
+.python {
+  background-color: #4bce46c0;
+  transition: var(--transition-bg);
+}
+
+/* Warna badge untuk mode gelap (dark mode) */
+html.dark .mmana-gal,
+html.dark .apache-spark,
+html.dark .astro,
+html.dar .jupyter,
+html.dark .blender {
+  background-color: #ffbc96;
+}
+
+html.dark .google-earth,
+html.dark .c\+\+,
+html.dark .css {
+  background-color: #1c80bf5e;
+}
+
+html.dark .tailwindcss,
+html.dark .typescript,
+html.dark .react {
+  background-color: #bddaff;
+}
+
+html.dark .sass {
+  background-color: color-mix(in srgb, #602957, #fff 70%);
+}
+
+html.dark .open-props,
+html.dark .kicad {
+  background-color: #c1cbf1;
+}
+
+html.dark .javascript {
+  background-color: #e2da9a;
+}
+
+html.dark .php {
+  background-color: #cacaca;
+}
+
+html.dark .wordpress {
+  background-color: #b1b8d1;
+}
+
+html.dark .firebase {
+  background-color: #ffdd88;
+}
+
+html.dark .qgis,
+html.dark .python {
+  background-color: #4bce465e;
+  transition: var(--transition-bg);
+}
+
+html.dark .mmana-gal {
+  background-color: #ff480093;
+  transition: var(--transition-bg);
+}
